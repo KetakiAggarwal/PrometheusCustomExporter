@@ -1,0 +1,228 @@
+*****readConfig
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+   Loading check: INODE_USAGE1       - /u01/golang/development/src/fusion_collector/inodeusage.sh
+   Loading check: INODE_USAGE1       - FileSystem,MountPoint
+   Loading check: INODE_USAGE3       - /u01/golang/development/src/fusion_collector/nokey.sh
+   Loading check: INODE_USAGE3       - 
+*****readConfig
+ext: .yml
+Parsing config as yaml file
+   Loading check: atkmonitor         - /u01/golang/development/src/fusion_collector/atkmonitor.sh
+   Loading check: atkmonitor         - ATKUrl,site,pod,target_name,http_status,console_url
+*****readConfig24hr
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage_24hr.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+*****readConfig
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage_15min.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+*****readConfig30min
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage_30min.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+*****readConfig1hr
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage_1hr.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+*****readConfig12hr
+ext: .yml
+Parsing config as yaml file
+   Loading check: INODE_USAGE        - /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh
+   Loading check: INODE_USAGE        - FileSystem,MountPoint
+   Loading check: INODE_USAGE1       - /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh
+   Loading check: INODE_USAGE1       - FileSystem,MountPoint
+   Loading check: INODE_USAGE2       - /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh
+   Loading check: INODE_USAGE2       - FileSystem,MountPoint
+*****newSvcCollector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+  Index: 1 -> {INODE_USAGE1 /u01/golang/development/src/fusion_collector/inodeusage.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage1_InodeUsage Show INODE_USAGE1_InodeUsage [] [FileSystem MountPoint] 1974631474130264891 5407127144707700144 <nil>})]}
+  Index: 2 -> {INODE_USAGE3 /u01/golang/development/src/fusion_collector/nokey.sh  InodeUsage [%!s(*prometheus.Desc=&{inode_usage3_InodeUsage Show INODE_USAGE3_InodeUsage [] [] 8897976489591550985 5797988637594187324 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+  Index: 1 -> {INODE_USAGE1 /u01/golang/development/src/fusion_collector/inodeusage.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage1_InodeUsage Show INODE_USAGE1_InodeUsage [] [FileSystem MountPoint] 1974631474130264891 5407127144707700144 <nil>})]}
+  Index: 2 -> {INODE_USAGE3 /u01/golang/development/src/fusion_collector/nokey.sh  InodeUsage [%!s(*prometheus.Desc=&{inode_usage3_InodeUsage Show INODE_USAGE3_InodeUsage [] [] 8897976489591550985 5797988637594187324 <nil>})]}
+*****newSvcCollector10min
+  Index: 0 -> {atkmonitor /u01/golang/development/src/fusion_collector/atkmonitor.sh ATKUrl,site,pod,target_name,http_status,console_url ATKAvailability,Status [%!s(*prometheus.Desc=&{atkmonitor_ATKAvailability Show ATKMONITOR_ATKAvailability [] [ATKUrl site pod target_name http_status console_url] 2184284554501926332 6333312453821024529 <nil>}) %!s(*prometheus.Desc=&{atkmonitor_Status Show ATKMONITOR_Status [] [ATKUrl site pod target_name http_status console_url] 11979624050957864325 2261238391370278746 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {atkmonitor /u01/golang/development/src/fusion_collector/atkmonitor.sh ATKUrl,site,pod,target_name,http_status,console_url ATKAvailability,Status [%!s(*prometheus.Desc=&{atkmonitor_ATKAvailability Show ATKMONITOR_ATKAvailability [] [ATKUrl site pod target_name http_status console_url] 2184284554501926332 6333312453821024529 <nil>}) %!s(*prometheus.Desc=&{atkmonitor_Status Show ATKMONITOR_Status [] [ATKUrl site pod target_name http_status console_url] 11979624050957864325 2261238391370278746 <nil>})]}
+*****newSvcCollector15min
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_15min.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_15min.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****newSvcCollector30min
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_30min.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_30min.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****newSvcCollector1hr
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_1hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_1hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****newSvcCollector12hr
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+  Index: 1 -> {INODE_USAGE1 /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage1_InodeUsage Show INODE_USAGE1_InodeUsage [] [FileSystem MountPoint] 1974631474130264891 5407127144707700144 <nil>})]}
+  Index: 2 -> {INODE_USAGE2 /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage2_InodeUsage Show INODE_USAGE2_InodeUsage [] [FileSystem MountPoint] 5426868518111438070 6357545197545397129 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+  Index: 1 -> {INODE_USAGE1 /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage1_InodeUsage Show INODE_USAGE1_InodeUsage [] [FileSystem MountPoint] 1974631474130264891 5407127144707700144 <nil>})]}
+  Index: 2 -> {INODE_USAGE2 /u01/golang/development/src/fusion_collector/inodeusage_12hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage2_InodeUsage Show INODE_USAGE2_InodeUsage [] [FileSystem MountPoint] 5426868518111438070 6357545197545397129 <nil>})]}
+*****newSvcCollector24hr
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_24hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+*****Describe each collector
+  Index: 0 -> {INODE_USAGE /u01/golang/development/src/fusion_collector/inodeusage_24hr.sh FileSystem,MountPoint InodeUsage [%!s(*prometheus.Desc=&{inode_usage_InodeUsage Show INODE_USAGE_InodeUsage [] [FileSystem MountPoint] 17352845834039579008 15637126332811212833 <nil>})]}
+time="2019-07-16T04:41:18Z" level=info msg="Beginning to serve on port :3874" source="main.go:85"
+*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=test||2
+)Length of output = 2    value_float64=%!s(float64=2)Key Length= 1Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=||2
+)Length of output = 2    value_float64=%!s(float64=2)Key Length= 1Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=|2
+)Length of output <> 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=||test
+)Length of output = 2Float Parsing error = %!(EXTRA *strconv.NumError=strconv.ParseFloat: parsing "test": invalid syntax)Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=testing bad data
+)Length of output <> 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=testing bad data
+)Length of output <> 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2*****Collect each collector 12 hr
+Do collections every 12 hour
+   collecting INODE_USAGE: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE1: /u01/golang/development/src/fusion_collector/inodeusage.sh n   collecting INODE_USAGE3: /u01/golang/development/src/fusion_collector/nokey.sh nOutput=%!(EXTRA string=testing bad data||40
+)Length of output = 2    value_float64=%!s(float64=40)Key Length= 1Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Output=%!(EXTRA string=em_result=overlay|/||1
+em_result=tmpfs|/dev||1
+em_result=tmpfs|/sys/fs/cgroup||1
+em_result=/dev/sdd|/u01/golang||1
+em_result=/dev/sdc|/etc/hosts||1
+em_result=shm|/dev/shm||1
+em_result=tmpfs|/proc/acpi||1
+em_result=tmpfs|/proc/scsi||1
+em_result=tmpfs|/sys/firmware||1
+)Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2Length of output = 2    value_float64=%!s(float64=1)Key Length= 2

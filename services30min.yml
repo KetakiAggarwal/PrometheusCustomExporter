@@ -1,0 +1,7 @@
+monitor:
+   services: 
+      INODE_USAGE:
+           - bin: /u01/golang/development/src/fusion_collector/inodeusage_30min.sh
+             enabled: True
+             key: FileSystem,MountPoint
+             data: InodeUsage

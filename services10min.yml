@@ -1,0 +1,7 @@
+monitor:
+   services: 
+       atkmonitor:
+           - bin: /u01/golang/development/src/fusion_collector/atkmonitor.sh
+             enabled: True
+             key: ATKUrl,site,pod,target_name,http_status,console_url
+             data: ATKAvailability,Status

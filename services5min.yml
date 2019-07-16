@@ -1,0 +1,18 @@
+monitor:
+   services:
+      INODE_USAGE:
+           - bin: /u01/golang/development/src/fusion_collector/inodeusage.sh
+             enabled: True
+             key: FileSystem,MountPoint
+             data: InodeUsage
+      INODE_USAGE1:
+           - bin: /u01/golang/development/src/fusion_collector/inodeusage.sh
+             enabled: True
+             key: FileSystem,MountPoint
+             data: InodeUsage
+      INODE_USAGE3:
+           - bin: /u01/golang/development/src/fusion_collector/nokey.sh
+             enabled: True
+             key: 
+             data: InodeUsage
+      
