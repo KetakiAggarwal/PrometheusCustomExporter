@@ -1,6 +1,8 @@
 # PrometheusCustomExporter
 PrometheusCustomExporter
-This exporter will collect any metrics from any custom shell, perl, python, java script and return the output in prometheus readable format.
+This exporter will collect any metrics from any custom shell, perl, python, java script and return the output in prometheus readable format. There are 7 different endpoints defined for every frequency of metric collection. These can be scraped at different scrape interval from prometheus server. The custom scripts defined in each service*.yml file will be called along with each scrape.
+
+These are /metrics5min , /metrics10min, /metrics15min, /metrics30min, /metrics1hr, /metrics12hr, /metrics24hr
 
 The services*.yml file is used to define the custom scripts to be run. The key and data points each custom script will return. Key is transformed to prometheus metrics labels and data is transformed to actual metric data. Providing a key is optional. Data values can only be float format for prometheus to read.
 
